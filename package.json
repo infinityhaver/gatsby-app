@@ -1,13 +1,13 @@
 {
-  "name": "gatsby-starter-wordpress-blog",
+  "name": "forefront-gatsby-wordpress",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A starter for a site powered by Gatsby and Markdown",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com> and Tyler Barnes <tylerdbarnes@gmail.com>",
+  "author": "Nathanael Gray <ngray@forefrontweb.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/infinityhaver/gatsby-app/issues"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/infinityhaver/gatsby-app#readme",
   "keywords": [
     "gatsby"
   ],

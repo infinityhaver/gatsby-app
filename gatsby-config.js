@@ -58,7 +58,7 @@ module.exports = {
       // See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter WordPress Blog`,
+        name: `ForeFront Web's Gatsby WordPress Starter`,
         short_name: `GatsbyJS & WP`,
         start_url: `/`,
         background_color: `#ffffff`,
