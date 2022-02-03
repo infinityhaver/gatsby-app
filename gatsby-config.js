@@ -28,7 +28,21 @@ module.exports = {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL ||
+//          `http://gatsby.local/graphql`,
+
+          // triggers gatsby cloud build
           `https://source.lonelycoconut.com/graphql`,
+      },
+    },
+
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "WPGraphQL",
+        fieldName: "wpgraphql",
+//        url: `http://gatsby.local/graphql`,
+        url: `https://source.lonelycoconut.com/graphql`,
+
       },
     },
 
@@ -52,8 +66,10 @@ module.exports = {
      * if you're curious about it.
      */
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-fontawesome-css`,
     {
       // See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
       resolve: `gatsby-plugin-manifest`,

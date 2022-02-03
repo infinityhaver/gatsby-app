@@ -1,0 +1,21 @@
+ul.social-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    li {
+        margin-right: 15px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        a {
+            display: block;
+            clear: both;
+            float: none;
+            padding: 10px;
+        }
+    }
+}
