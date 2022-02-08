@@ -22,7 +22,7 @@ const Logo = () => {
 
     return (
         <>
-            <img src={siteLogo} className="img-fluid" />
+            <img src={siteLogo} className="img-fluid" alt="Derp" />
         </>
     )
 }
