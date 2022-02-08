@@ -26,9 +26,9 @@ const MenuItem = ({ menuItem, wordPressUrl }) => {
 			)
 		}
 		if(!menuItem.parentId) { 
-			const cssClasses = 'nav-link' + cssClasses
+			
 			return(
-				<li className={"nav-item"}>
+				<li className="nav-item">
 					<a className="nav-link" style={{marginRight: '20px' }} href={CreateLocalLink(menuItem, wordPressUrl)} target={menuItem.target}>
 						{menuItem.label}
 					</a>
